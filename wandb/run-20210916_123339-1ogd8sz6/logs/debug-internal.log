@@ -1,0 +1,222 @@
+2021-09-16 12:34:01,865 INFO    MainThread:187372 [internal.py:wandb_internal():89] W&B internal server running at pid: 187372, started at: 2021-09-16 12:34:01.865587
+2021-09-16 12:34:01,867 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: check_version
+2021-09-16 12:34:01,867 INFO    WriterThread:187372 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/run-1ogd8sz6.wandb
+2021-09-16 12:34:01,869 DEBUG   SenderThread:187372 [sender.py:send():182] send: header
+2021-09-16 12:34:01,869 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: check_version
+2021-09-16 12:34:02,330 DEBUG   SenderThread:187372 [sender.py:send():182] send: run
+2021-09-16 12:34:02,332 DEBUG   SenderThread:187372 [git.py:repo():33] git repository is invalid
+2021-09-16 12:34:02,895 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: run_start
+2021-09-16 12:34:02,896 INFO    SenderThread:187372 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files
+2021-09-16 12:34:02,896 INFO    SenderThread:187372 [sender.py:_start_run_threads():743] run started: 1ogd8sz6 with start time 1631775841
+2021-09-16 12:34:02,896 DEBUG   SenderThread:187372 [sender.py:send():182] send: summary
+2021-09-16 12:34:02,896 INFO    SenderThread:187372 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-16 12:34:02,898 DEBUG   HandlerThread:187372 [meta.py:__init__():40] meta init
+2021-09-16 12:34:02,898 DEBUG   HandlerThread:187372 [meta.py:__init__():54] meta init done
+2021-09-16 12:34:02,898 DEBUG   HandlerThread:187372 [meta.py:probe():211] probe
+2021-09-16 12:34:02,904 DEBUG   HandlerThread:187372 [git.py:repo():33] git repository is invalid
+2021-09-16 12:34:02,904 DEBUG   HandlerThread:187372 [meta.py:_save_code():90] save code
+2021-09-16 12:34:02,904 WARNING HandlerThread:187372 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-16 12:34:02,904 DEBUG   HandlerThread:187372 [meta.py:_save_pip():58] save pip
+2021-09-16 12:34:02,905 DEBUG   HandlerThread:187372 [meta.py:_save_pip():72] save pip done
+2021-09-16 12:34:02,905 DEBUG   HandlerThread:187372 [meta.py:_save_conda():79] save conda
+2021-09-16 12:34:03,898 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/conda-environment.yaml
+2021-09-16 12:34:03,899 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-summary.json
+2021-09-16 12:34:03,899 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/requirements.txt
+2021-09-16 12:34:08,902 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/output.log
+2021-09-16 12:34:09,903 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/conda-environment.yaml
+2021-09-16 12:34:10,094 DEBUG   HandlerThread:187372 [meta.py:_save_conda():87] save conda done
+2021-09-16 12:34:10,094 DEBUG   HandlerThread:187372 [meta.py:probe():249] probe done
+2021-09-16 12:34:10,123 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 12:34:10,123 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: stop_status
+2021-09-16 12:34:10,903 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/output.log
+2021-09-16 12:34:10,903 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-metadata.json
+2021-09-16 12:34:11,577 DEBUG   SenderThread:187372 [sender.py:send():182] send: files
+2021-09-16 12:34:11,582 INFO    SenderThread:187372 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-16 12:34:13,016 INFO    Thread-11 :187372 [upload_job.py:push():137] Uploaded file /tmp/tmpz08cuq9bwandb/1jcdcq2p-wandb-metadata.json
+2021-09-16 12:34:26,579 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 12:34:26,579 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: stop_status
+2021-09-16 12:34:29,432 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:29,432 DEBUG   SenderThread:187372 [sender.py:send():182] send: telemetry
+2021-09-16 12:34:29,432 DEBUG   SenderThread:187372 [sender.py:send():182] send: exit
+2021-09-16 12:34:29,432 INFO    SenderThread:187372 [sender.py:send_exit():291] handling exit code: 0
+2021-09-16 12:34:29,432 INFO    SenderThread:187372 [sender.py:send_exit():293] handling runtime: 26
+2021-09-16 12:34:29,435 INFO    SenderThread:187372 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-16 12:34:29,435 INFO    SenderThread:187372 [sender.py:send_exit():303] send defer
+2021-09-16 12:34:29,435 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:29,436 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:29,436 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-16 12:34:29,437 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:29,437 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-16 12:34:29,437 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 1
+2021-09-16 12:34:29,438 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:29,438 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-16 12:34:29,535 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:29,535 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-16 12:34:29,535 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 2
+2021-09-16 12:34:29,535 DEBUG   SenderThread:187372 [sender.py:send():182] send: stats
+2021-09-16 12:34:29,536 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:29,536 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-16 12:34:29,536 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:29,536 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-16 12:34:29,536 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 3
+2021-09-16 12:34:29,536 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:29,536 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-16 12:34:29,536 DEBUG   SenderThread:187372 [sender.py:send():182] send: summary
+2021-09-16 12:34:29,536 INFO    SenderThread:187372 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-16 12:34:29,537 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:29,537 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-16 12:34:29,537 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 4
+2021-09-16 12:34:29,537 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:29,537 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-16 12:34:29,537 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:29,537 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-16 12:34:29,544 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:29,909 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/output.log
+2021-09-16 12:34:29,910 INFO    Thread-8  :187372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-summary.json
+2021-09-16 12:34:34,640 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:34,949 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 5
+2021-09-16 12:34:34,949 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:34,950 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:34,950 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:34,950 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-16 12:34:34,951 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:34,951 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-16 12:34:34,951 INFO    SenderThread:187372 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-16 12:34:35,051 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:35,911 INFO    SenderThread:187372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/config.yaml
+2021-09-16 12:34:35,911 INFO    SenderThread:187372 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files
+2021-09-16 12:34:35,912 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/output.log output.log
+2021-09-16 12:34:35,912 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/config.yaml config.yaml
+2021-09-16 12:34:35,912 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-summary.json wandb-summary.json
+2021-09-16 12:34:35,918 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/requirements.txt requirements.txt
+2021-09-16 12:34:35,923 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-metadata.json wandb-metadata.json
+2021-09-16 12:34:35,923 INFO    SenderThread:187372 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/conda-environment.yaml conda-environment.yaml
+2021-09-16 12:34:35,924 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 6
+2021-09-16 12:34:35,924 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:35,933 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:35,939 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-16 12:34:35,940 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:35,940 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-16 12:34:35,940 INFO    SenderThread:187372 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-16 12:34:36,042 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,042 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,144 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,144 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,247 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,247 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,349 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,349 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,450 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,451 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,552 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,552 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,654 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,654 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,756 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,756 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,857 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,857 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:36,959 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:36,959 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,060 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,061 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,163 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,163 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,265 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,265 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,367 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,367 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,469 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,469 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,523 INFO    Thread-14 :187372 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/wandb-summary.json
+2021-09-16 12:34:37,542 INFO    Thread-12 :187372 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/output.log
+2021-09-16 12:34:37,570 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,571 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,672 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,672 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,774 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,774 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,876 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,876 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:37,977 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:37,978 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,079 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,079 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,182 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,182 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,283 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,284 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,385 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,385 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,487 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,487 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,589 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,589 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,691 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,691 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,793 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,793 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:38,868 INFO    Thread-13 :187372 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/config.yaml
+2021-09-16 12:34:38,898 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:38,898 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,000 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,000 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,004 INFO    Thread-15 :187372 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/requirements.txt
+2021-09-16 12:34:39,101 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,101 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,203 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,203 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,304 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,304 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,406 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,406 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,507 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,508 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,610 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,610 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,712 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,712 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,813 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,813 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:39,915 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:39,915 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,016 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,016 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,118 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,118 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,135 INFO    Thread-16 :187372 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/files/conda-environment.yaml
+2021-09-16 12:34:40,219 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,220 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,321 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,321 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,336 INFO    Thread-7  :187372 [sender.py:transition_state():316] send defer: 7
+2021-09-16 12:34:40,336 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:40,336 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-16 12:34:40,336 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:40,336 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-16 12:34:40,423 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,617 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 8
+2021-09-16 12:34:40,617 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,617 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:40,617 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-16 12:34:40,618 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:40,618 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-16 12:34:40,618 INFO    SenderThread:187372 [sender.py:transition_state():316] send defer: 9
+2021-09-16 12:34:40,618 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: defer
+2021-09-16 12:34:40,618 DEBUG   SenderThread:187372 [sender.py:send():182] send: final
+2021-09-16 12:34:40,618 INFO    HandlerThread:187372 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-16 12:34:40,618 DEBUG   SenderThread:187372 [sender.py:send():182] send: footer
+2021-09-16 12:34:40,618 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: defer
+2021-09-16 12:34:40,618 INFO    SenderThread:187372 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-16 12:34:40,718 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-16 12:34:40,719 DEBUG   SenderThread:187372 [sender.py:send_request():196] send_request: poll_exit
+2021-09-16 12:34:40,719 INFO    SenderThread:187372 [file_pusher.py:join():182] waiting for file pusher
+2021-09-16 12:34:40,720 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-16 12:34:40,721 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-16 12:34:40,721 DEBUG   HandlerThread:187372 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-16 12:34:40,721 INFO    HandlerThread:187372 [handler.py:finish():683] shutting down handler
+2021-09-16 12:34:41,618 INFO    WriterThread:187372 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Stanford-Dogs-DataSet/wandb/run-20210916_123339-1ogd8sz6/run-1ogd8sz6.wandb
+2021-09-16 12:34:41,719 INFO    SenderThread:187372 [sender.py:finish():979] shutting down sender
+2021-09-16 12:34:41,719 INFO    SenderThread:187372 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-16 12:34:41,719 INFO    SenderThread:187372 [file_pusher.py:join():182] waiting for file pusher
+2021-09-16 12:34:41,721 INFO    MainThread:187372 [internal.py:handle_exit():76] Internal process exited
